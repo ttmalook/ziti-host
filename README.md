@@ -2,7 +2,7 @@
 
 > 이 포털에서 **MFA**, **마이크로세그먼테이션**, **세션 제어**, **Posture(단말 상태)** 를 실증합니다.  
 > 아키텍처: **VM#1(OpenZiti: controller=quickstart, edge router)** ↔ **VM#2(Grav 포털 + ziti-host)**.  
-> 상세 데모 절차는 `DEMO-GUIDE.md` 를 참고하세요.
+> 상세 데모 절차는 [DEMO-GUIDE.md](./DEMO-GUIDE.md) 를 참고하세요.
 
 컨테이너에서 **OpenZiti Edge Tunnel(호스트 모드)** 를 실행하기 위한 실무 가이드입니다.  
 이미지에는 **실행 파일만 포함**하고, 아이덴티티(`web-host.json`)는 **런타임 볼륨 마운트**로 주입합니다.  
