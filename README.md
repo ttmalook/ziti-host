@@ -1,7 +1,8 @@
 # Grav 기반 Zero Trust PoC 포털
 
 > 이 포털에서 **MFA**, **마이크로세그먼테이션**, **세션 제어**, **Posture(단말 상태)** 를 실증합니다.  
-> 아키텍처: **VM#1(OpenZiti: controller=quickstart, edge router)** ↔ **VM#2(Grav 포털 + ziti-host)**.  
+> 아키텍처: **VM#1(OpenZiti: controller=quickstart, edge router)** ↔ **VM#2(Grav 포털 + ziti-host)**.
+> VM1 설치 및 구성은 참고하세요.[Openziti.md](./Openziti.md)
 > 상세 데모 절차는 [DEMO-GUIDE.md](./DEMO-GUIDE.md) 를 참고하세요.
 
 컨테이너에서 **OpenZiti Edge Tunnel(호스트 모드)** 를 실행하기 위한 실무 가이드입니다.  
