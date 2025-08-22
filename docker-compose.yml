@@ -1,6 +1,6 @@
 services:
   ziti-host:
-    image: ziti-host:1.7.10
+    image: ghcr.io/ttmalook/ziti-host:1.7.10
     container_name: ziti-host
     volumes:
       - ${IDENTITY_PATH:-/root/web-host.json}:/etc/ziti/web-host.json:ro
