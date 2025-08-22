@@ -1,0 +1,9 @@
+services:
+  ziti-host:
+    image: ziti-host:1.7.10
+    container_name: ziti-host
+    volumes:
+      - ${IDENTITY_PATH:-/root/web-host.json}:/etc/ziti/web-host.json:ro
+    extra_hosts:
+      - "quickstart:${CTRL_IP}"
+    restart: always

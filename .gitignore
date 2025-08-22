@@ -1,0 +1,7 @@
+bin/
+*.jwt
+*.json
+*.pem
+*.key
+.DS_Store
+*.swp
