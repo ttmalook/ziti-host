@@ -114,9 +114,5 @@ docker compose up -d --pull always               # compose 사용 시
 
 ---
 
-## ❓ FAQ
-**Q. 컨테이너 안에서 enroll까지 자동화할 수 있나요?**  
-가능은 하지만 JWT가 1회성이라 재시작/롤백 시 꼬일 수 있습니다. 권장: **호스트에서 1회 enroll → JSON만 마운트**.
-
-**Q. Podman도 가능한가요?**  
-가능합니다. `podman-docker` 환경이면 대부분 동일하게 동작합니다.
+### ▶️ 전체 세부 가이드(올인원)
+자세한 설치/아키텍처/정책/운영/트러블슈팅은 **[README-all-in-one.md](README-all-in-one.md)** 를 참조하세요.
